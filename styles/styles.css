@@ -108,7 +108,8 @@ footer {
 
 @media (max-width: 600px) {
   .nav-list {
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
     gap: 0.8rem;
   }
 
