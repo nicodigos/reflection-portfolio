@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Developer Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Nicolás Peralta</h1>
+      <p>Full Stack Software Developer</p>
+      <nav>
+        <a href="index.html" class="back-link">← Back to Home</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro">
+        <h2>About Me</h2>
+        <p>
+          I’m a Full Stack Developer passionate about building clean,
+          user-focused web applications. I specialize in creating responsive,
+          efficient, and scalable systems that reflect thoughtful design and
+          strong backend logic.
+        </p>
+      </section>
+
+      <section class="project">
+        <h2>Featured Project</h2>
+        <h3>Open Source Contribution</h3>
+        <p>
+          I contributed to an open-source project on GitHub by improving the
+          onboarding experience for new developers. I focused on clarifying the
+          README file to provide clearer setup instructions.
+        </p>
+        <ul>
+          <li><strong>Role:</strong> Contributor</li>
+          <li><strong>Technologies:</strong> Markdown, Git, GitHub</li>
+          <li>
+            <strong>Pull Request:</strong>
+            <a href="https://github.com/example/repo/pull/123" target="_blank">
+              Improve README with clearer setup instructions
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+
+          <p class="form-message success" style="display: none">
+            Message sent successfully!
+          </p>
+          <p class="form-message error" style="display: none">
+            There was an error sending your message.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Nicolás Peralta - Full Stack Software Development</p>
+    </footer>
+  </body>
+</html>
